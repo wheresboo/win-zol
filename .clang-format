@@ -1,0 +1,55 @@
+---
+BasedOnStyle: WebKit
+AlignEscapedNewlines: LeftWithLastLine
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+AllowShortLambdasOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterCaseLabel: true
+    AfterClass: true
+    AfterControlStatement: Always
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: true
+    AfterObjCDeclaration: true
+    AfterStruct: true
+    AfterUnion: true
+    AfterExternBlock: true
+    BeforeCatch: true
+    BeforeElse: true
+    BeforeWhile: true
+    SplitEmptyRecord: true
+    SplitEmptyNamespace: true
+
+AllowShortFunctionsOnASingleLine: Empty
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+NamespaceIndentation: All
+IndentExportBlock: false
+IndentPPDirectives: BeforeHash
+
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+SortIncludes:
+    Enabled: false
+    IgnoreCase: true
+
+SortUsingDeclarations: false
+
+Standard: Auto
+...
